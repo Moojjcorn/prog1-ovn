@@ -1,9 +1,9 @@
 import random
-randomTal = random.randint(0,10)
+randomTal = random.randint(1,10)
 gissa = 0
 tries = 1
 while gissa != randomTal :
-    gissa = float(input('Gissa på ett heltal mellan 0 och 10: '))
+    gissa = float(input('Gissa på ett heltal mellan 1 och 10: '))
     if gissa < randomTal :
         print(f"{gissa} är för lite")
         tries += 1
